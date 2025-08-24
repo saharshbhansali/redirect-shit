@@ -26,9 +26,8 @@ function createRedirectResponse(url: string): NextResponse {
 }
 
 const hostRedirectMap: { [key: string]: string } = {
-  "resume.saharshbhansali.dev":
-    "https://saharshbhansali.github.io/about-me/resume.pdf",
-  "about.saharshbhansali.dev": "https://saharshbhansali.github.io/about-me/",
+  "resume.saharshbhansali.dev": "https://saharshbhansali.dev/resume.pdf",
+  "about.saharshbhansali.dev": "https://saharshbhansali.dev",
   // Add more host-URL mappings here
 };
 
